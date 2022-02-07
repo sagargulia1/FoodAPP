@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style\signin.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div id="navbar">
+
+            <div id="nav">
+              <div id= "menu1"    onclick="window.location.href='index.html'">MENU</div>
+              <div id= "signin"  onclick="window.location.href='index.html'">SIGNIN</div>
+              <div id= "signup"  onclick="window.location.href='index.html'">SIGNUP</div>
+              <div id= "cart"    onclick="window.location.href='index.html'">CART</div>
+            </div>
+         </div>
+
+        <div id="signin-form-div">
+            <h1>Login</h1>
+
+            <form>
+                <!--Write form input elements here-->
+                <input  id = "email" type="text" placeholder="Enter your Email"/>
+                <p id="para"></p>
+                <input id = "pass" type="password" placeholder="Enter your Password"/>
+                <p id="login-para"></p>
+                <input type="submit" value="Submit"/>
+                
+            </form>
+
+        </div>
+    </body>
+
+</html>
+
+<script src ="scripts\signin.js"></script>
